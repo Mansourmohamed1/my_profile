@@ -1,17 +1,67 @@
-# my_profile
+# My Profile App
 
-A new Flutter project.
+A simple and clean **Flutter Profile UI** built with Flutter and Dart.
 
-## Getting Started
+## 📱 Screenshot
 
-This project is a starting point for a Flutter application.
+![My Profile Screenshot](screenshot.png)
+![My Profile Screenshot](screenshot1.png)
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Clean and modern profile screen
+- Custom AppBar with back and menu actions
+- Circular profile image
+- User name and job title
+- Location and age information
+- Edit Profile button
+- About Me section
+- Rating and experience statistics
+- Responsive and scrollable layout
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies
+
+- Flutter
+- Dart
+- Material Design
+
+## 📂 Project Structure
+
+```text
+lib/
+├── main.dart
+└── core/
+    └── appColor.dart
+
+assets/
+└── image/
+    └── profile.jpg
+```
+
+## 🚀 Getting Started
+
+1. Make sure Flutter is installed.
+2. Clone or open the project.
+3. Add the profile image to:
+
+```text
+assets/image/profile.jpg
+```
+
+4. Get the dependencies:
+
+```bash
+flutter pub get
+```
+
+5. Run the application:
+
+```bash
+flutter run
+```
+
+## 👨‍💻 Developer
+
+**Mansour Mohamed**
+
+Flutter Developer

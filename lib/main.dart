@@ -56,11 +56,9 @@ class MyProfile extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                   const CircleAvatar(
+                   CircleAvatar(
                       radius: 80,
-                      backgroundImage: AssetImage(
-                        'assets/image/profile.jpg',
-                      ),
+                      backgroundImage: AssetImage("assets/image/profile.jpg"),
                     ),
 
                   const SizedBox(height: 55),
